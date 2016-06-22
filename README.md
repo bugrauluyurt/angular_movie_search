@@ -1,4 +1,4 @@
-# movie-app
+# Movie Search App (using OMDB API)
 
 Simple movie search app built upon yeoman angular generator.
 
