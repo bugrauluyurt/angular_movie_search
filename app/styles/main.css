@@ -1,0 +1,16 @@
+html, body, input, select, textarea
+{
+    font-size: 1.05em !important;
+}
+
+.poster {
+  height:200px;
+  max-width:163px;
+}
+
+.panel-title {
+  width: 320px;
+  white-space: nowrap;
+    overflow: hidden;
+  text-overflow: ellipsis;
+}

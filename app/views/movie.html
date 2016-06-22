@@ -1,0 +1,16 @@
+<p>
+    <a class="btn btn-primary" href="#/"><i class="fa fa-arrow-left" aria-hidden="true"></i> Back to Search</a>
+</p>
+<hr>
+Results for {{ movie }}
+<hr>
+Pages
+<a ng-repeat="num in pageArr" href="#/movie/{{num}}"> {{num}} </a> 
+<hr>
+<div >
+    <div class="row">
+        <div class="col-md-6" ng-repeat="m in movieResults">
+            <movie-report movie-item="m"></movie-report>
+        </div>
+    </div>
+</div>
